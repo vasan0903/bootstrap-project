@@ -1,0 +1,30 @@
+.gridcontainer{
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+   /* justify-items: center;*/
+    height: 400px;
+  /*  align-items: center;*/
+}
+
+#box1{
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    
+    
+}
+/*#box2{
+    width: 50%;
+    justify-self: end;
+    align-self: center;
+    
+}
+#box3{
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+}
+#box4{
+    width: 50%;
+    justify-self: start;
+    align-self: baseline;*/

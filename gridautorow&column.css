@@ -1,0 +1,14 @@
+.gridcontainer{
+    grid-template-columns: repeat(6,250px);
+    grid-template-rows: repeat(4,200px);
+}
+#one{
+    grid-column-start: 1 ;
+    grid-column-end: 6;
+
+    grid-row-start: 1;
+    grid-row-end: 6;
+
+    grid-row: 2/3;
+    grid-column: 1/4;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframe</title>
+    <style>
+        .box{
+            position: relative;
+            left: 20px;
+            top: 20px;
+            width: 300px;
+            height: 200px;
+            font-size: 20px;
+            font-weight: 900;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(7, 208, 227);
+            animation-name: box;
+            animation-duration: 3s;
+            animation-delay: 1s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+        @keyframes box{
+            /*25%{ 
+                background-color: chartreuse;
+                left: 500px;
+                top: 20px;
+            }
+            50%{
+                background-color: yellow;
+                left: 500px;
+                top: 500px
+            }
+            75%{
+                background-color: chocolate;
+                left: 20px;
+                top: 500px;
+            }
+            100%{
+                background-color: rgb(237, 9, 203);
+                left: 20px;
+                top: 20px;
+            }*/
+            from{
+                background-color: aqua;
+                top: 20;
+                left: 20;
+
+            }
+            to{
+                background-color: brown;
+                top: 500px;
+                left: 200px;
+            }
+         }
+        
+    </style>
+</head>
+<body>
+    
+        <img src="vasan-removebg-preview.png" alt="" class="box">
+
+    
+    </div>
+</body>
+</html>

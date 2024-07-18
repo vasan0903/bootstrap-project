@@ -1,0 +1,12 @@
+.gridcontainer{
+    /*grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: repeat(2,100px);*/
+    grid-template: repeat(2,100px) / 100px 100px 100px 100px;
+    justify-content: space-evenly;
+    align-content: space-around;
+    height: 600px;
+}
+
+
+
+ 

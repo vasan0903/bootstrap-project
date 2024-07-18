@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+</head>
+<body>
+    <form onsubmit="handlesubmit(event)">
+        <h1>login here</h1>
+        <label for="username">username
+        <input type="usernmae" name="username" id="username" onchange=""></label><br>
+        <label for="password">password
+        <input type="password" name="password" id="password"></label><br>
+        <input type="submit" value="login">
+    </form>
+</body>
+<script>
+    function handlesubmit(event) {
+        event.preventDefault()
+        const username=event.target.username.value
+        const password=event.target.password.value
+        if(username==="admin" && password==='12345'){
+            alert("login success")
+        }else{
+            alert("login failed")
+        }
+    }    
+</script>
+</html>

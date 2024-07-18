@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        .plane{
+            /* margin-top: 500px; */
+            /* margin-left: 500px; */
+            /* width: 200px; */
+            
+            
+            /*margin-top: 200px;
+            margin-left: 300px;
+            translate
+            transform: translateX(500px);
+            transform: translatez(220px)
+            transform: translate(500px,200px);
+
+
+            rotate
+            transform: rotateX(500deg);
+            transform: rotateY(300deg);
+            transform: rotatez(150deg);
+            transform: rotate(150deg);
+            transform:rotate3d(1,1,2,220deg);
+
+            scale
+            transform: scalex(3);
+            transform: scaleY(4);
+            transform: scaleZ(5);
+            transform: scale(6,4);
+
+            stew;
+            transform: skewX(30deg);
+            transform: skewY(30deg)
+            transform: skew(30deg,30deg);*/
+
+ 
+        }
+        .plane:hover{
+           /* width: 800px;
+            transition: width 3sec  ease;
+            transform: rotatey(220deg) scale(3);*/
+            transform: translatex(400px) translateY(400px) rotate(36000000000000000deg);
+ 
+            transition: transform 3s ease-in-out;
+            /* transition-delay: 3s;  */
+         }
+    </style>
+</head>
+<body>
+   <img src="totalpng.com_-_23999-removebg-preview.png" alt="plane" class="plane">
+</body>
+</html>

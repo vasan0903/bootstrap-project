@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexrap</title>
+    <style>
+        .flex-container{
+            display: flex;
+            background-color: rgb(12, 12, 11);
+            /*flex-direction: column;
+            width: 1000;
+            height: 600px;*/
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: flex-start;
+            width: 1000px;
+            height: 500px;
+
+
+            
+        }
+        .items{
+            background-color: rgb(251, 243, 250);
+            color:rgb(240, 10, 233);
+            
+            padding: 10px ;
+            margin: 10px;
+            border: 5px dotted rgb(255, 0, 21);
+            line-height: 75px;
+            font-size: 30px;
+            text-align: center;
+
+        }
+        #box1{
+            order: 3;
+        }
+        #box2{
+            order: 4;
+
+        }   
+        #box3{
+            order: 5;
+        }     
+        #box4{
+            order: 1;
+        
+        }
+        #box5{
+            order: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+    <div class= "items"  id="box1">1</div>
+    <div class= "items"  id="box2">2</div>
+    <div class= "items"  id="box3">3</div>
+    <div class= "items"  id="box4">4</div>
+    <div class= "items"  id="box5">5</div>
+    <!--<div class="items">6</div>
+    <div class="items">7</div>
+    <div class="items">8</div>-->
+    </div>
+</body>
+</html>

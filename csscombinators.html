@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css combinators</title>
+    <style>
+        div~p
+        {
+            color: rgb(4, 0, 243);
+            background-color: rgb(243, 155, 4);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>css combinators</h1>
+    <h1>
+        A combinators us something that explains the relationship between the selectors.
+
+    </h1>
+    <h2>There are four different combinators in css:</h2>
+    <h3>1.Descendant selector (space)</h3>
+    <h3>2.Child selector(>)</h3>
+    <h3>3.Adjacent sibling selector(+)</h3>
+    <h3>4.General sibling selector (~)</h3>
+
+    <div>
+        <span>paragraph 1</span><br>
+        <span>paragraph 2</span>
+        <section>
+            not child but Descendant
+            <p>paragraph 3 (inside a section element)</p>
+        </section>
+        <span>paragraph 4</span>
+        <p>paragraph 5</p>
+    </div>
+    <p>paragraph 6</p>
+    <p>paragraph 7</p>
+    <p>paragraph 8</p>0
+</body>
+</html>
